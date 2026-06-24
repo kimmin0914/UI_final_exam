@@ -1,55 +1,27 @@
-# Prerequisites
-*.d
+## 빌드 결과물 및 임시 파일
+bin/
+obj/
+X64/
+x86/
+bld/
+[Log]/
+[Log]s/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+## 비주얼 스튜디오 자동 생성 및 작업 파일
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+## 컴파일된 결과물 및 라이브러리
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.dll
 *.pdb
+*.cache
+*.spec
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+## 운영체제 임시 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
